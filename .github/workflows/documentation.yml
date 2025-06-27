@@ -15,7 +15,7 @@ jobs:
       - name: Setup .NET Core SDK into runner
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x0'
+          dotnet-version: '9.0.x'
 
       - name: Install dependencies
         run: dotnet restore
